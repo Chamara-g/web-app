@@ -1,3 +1,4 @@
+//csv read
 $('#chooseFile').bind('change', function () {
   var filename = $("#chooseFile").val();
   if (/^\s*$/.test(filename)) {
