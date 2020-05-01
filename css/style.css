@@ -4,6 +4,7 @@
     Author: BootstrapMade.com
     Author URL: https://bootstrapmade.com
 */
+
 body::-webkit-scrollbar {
   width: 0.5em;
 }
@@ -176,6 +177,14 @@ Banner
     left: 50%;
     margin-left: -12.5px;
     border-radius: 12px;
+}
+.carousel-control.left {
+    background-image:none
+
+}
+.carousel-control.right {
+    background-image:none
+
 }
 @-webkit-keyframes rotateplane {
     0%   {top:10px;}
