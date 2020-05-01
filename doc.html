@@ -20,6 +20,7 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">  
 
 </head>
 
@@ -136,7 +137,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-            <div class="item active">
+            <div class="item animate_left">
               <img src="img/manual/step_1/img1.jpg" style="width:100%;">
                 <div class="carousel-caption">
                   <p>LA is always so much fun!</p>
@@ -169,7 +170,7 @@
           </div>
         </div>
         <div class="col-md-6">
-            <div class="item active">
+            <div class="item animate_right">
               <img src="img/manual/step_1/img1.jpg" style="width:100%;">
                 <div class="carousel-caption">
                   <p>LA is always so much fun!</p>
@@ -238,3 +239,13 @@
 <script src="js/custom.js"></script>
 <script src="contactform/contactform.js"></script>
 
+<script type="text/javascript">
+
+$(window).on('load', function() {
+    $('.animate_left').addClass('animated bounceInLeft');
+});
+$(window).on('load', function() {
+    $('.animate_right').addClass('animated bounceInRight');
+});
+
+</script>
