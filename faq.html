@@ -20,8 +20,20 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
 
 </head>
+
+<style type="text/css">
+  
+  .h3_faq{
+      cursor: pointer;
+  }
+  .answer_faq{
+    display: none;
+  }
+
+</style>
 
 <body>
   <!--Navigation bar-->
@@ -130,8 +142,8 @@
         <div class="col-md-12">
           <div class="detail-info">
             <hgroup>
-              <h3 class="det-txt-manual"> Is inclusive quality education affordable?</h3>
-              <p class="det-p-manual">Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin metus non urna in eros tinciduntconvallis id id nisi in interdum.</p>
+              <h3 class="det-txt-manual h3_faq">01. Is inclusive quality education affordable?</h3>
+              <p class="det-p-manual answer_faq">Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin metus non urna in eros tinciduntconvallis id id nisi in interdum.</p>
             </hgroup>
           </div>
         </div>
@@ -140,8 +152,8 @@
         <div class="col-md-12">
           <div class="detail-info">
             <hgroup>
-              <h3 class="det-txt-manual"> Is inclusive quality education affordable?</h3>
-              <p class="det-p-manual">Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin metus non urna in eros tincidunt convallis id id nisi in interdum. Donec et lectus bibendum dolor</p>
+              <h3 class="det-txt-manual h3_faq">02. Is inclusive quality education affordable?</h3>
+              <p class="det-p-manual answer_faq">Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin metus non urna in eros tincidunt convallis id id nisi in interdum. Donec et lectus bibendum dolor</p>
             </hgroup>
           </div>
         </div>
@@ -207,3 +219,13 @@
 <script src="js/custom.js"></script>
 <script src="contactform/contactform.js"></script>
 
+<script type="text/javascript">
+
+  $('.h3_faq').click(function(){
+    $('.answer_faq').hide(0);
+
+    $(this).next().addClass('animated bounce');
+    $(this).next().show(0);
+  });
+
+</script>

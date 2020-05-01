@@ -206,12 +206,12 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <button type="button" class="close close_course_one" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">Modal Header</h4>
         </div>
         <div class="modal-body">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item video_iframe_course_one" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0&enablejsapi=1" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -276,9 +276,14 @@
 </html>
 
 <script type="text/javascript">
-  
-  $('.course_one').click(function() {
-    $('#model_div').show();
-    console.log('ok'); 
+
+function video_play_close(name_course){
+  $('.close_' + name_course).click(function(){
+      var leg=$('.video_iframe_' + name_course).attr("src");
+      $('.video_iframe_' + name_course).attr("src",leg);
   });
+}
+
+video_play_close('course_one');
+
 </script>
