@@ -89,28 +89,37 @@ jQuery(document).ready(function($) {
       }
     });
     if (ferror) return false;
-    else var str = $(this).serialize();
+    else var str = $(this).serialize() + '&submit_click_val=ok';
     var action = $(this).attr('action');
     if( ! action ) {
       action = 'contactform/contactform.php';
     }
+
     $.ajax({
       type: "POST",
       url: action,
       data: str,
       success: function(msg) {
-        // alert(msg);
-        if (msg == 'OK') {
-          $("#sendmessage").addClass("show");
-          $("#errormessage").removeClass("show");
-          $('.contactForm').find("input, textarea").val("");
-        } else {
-          $("#sendmessage").removeClass("show");
-          $("#errormessage").addClass("show");
-          $('#errormessage').html(msg);
-        }
+        $('#submit').attr("disabled", true);
+        $('#submit').css('opacity', '0.6');
 
-      }
+        Swal.fire({
+          position: 'center',
+          icon: 'success',
+          title: 'Thank you for subscribe us !',
+          showConfirmButton: false,
+          timer: 2500
+        });
+      },
+      error: function (request, status, error) {
+        Swal.fire({
+          position: 'center',
+          icon: 'error',
+          title: 'Sorry something went wrong !',
+          showConfirmButton: false,
+          timer: 2500
+        });
+      }       
     });
     return false;
   });

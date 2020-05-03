@@ -41,8 +41,20 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.back-to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+}
 .section-padding-manual{
     padding: 60px 10px;
+}
+.section-padding-index{
+    padding: 60px 10px;
+}
+.section-padding-nomenclature {
+    padding: 30px 10px 30px 10px;
 }
 .section-padding{
 	padding: 60px 10px 0px 10px;
@@ -139,11 +151,11 @@ Banner
     position: relative;
 }
 .bg-color{
-	background-color: RGBA(12, 11, 11, 0.82);
+	background-color: RGBA(12, 11, 11, 0.68);
 	min-height: 580px;
 }
 .bg-color-manual{
-    background-color: RGBA(12, 11, 11, 0.82);
+    background-color: RGBA(12, 11, 11, 0.68);
     min-height: 430px;
 }
 .text-dec{

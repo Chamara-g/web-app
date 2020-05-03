@@ -39,12 +39,13 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#feature">Features</a></li>
-          <li><a href="#organisations">Organisations</a></li>
-          <li><a href="#courses">Courses</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li class="btn-trial"><a href="#" data-target="#login" data-toggle="modal">Sign in</a></li>
+          <li><a style="color: #5fcf80;">Home</a></li>
+          <li><a href="user_guide.html">User guide</a></li>
+          <li><a href="manual.html">Manual</a></li>
+          <li><a href="nomenclature.html">Nomenclature</a></li>
+          <li><a href="crash_course.html">Crash course</a></li>
+          <li><a href="faq.html">Faq</a></li>
+<!--           <li class="btn-trial"><a href="#" data-target="#login" data-toggle="modal">Sign in</a></li> -->
         </ul>
       </div>
     </div>
@@ -52,10 +53,9 @@
   <!--/ Navigation bar-->
 
   <!--Modal box-->
-  <div class="modal fade" id="login" role="dialog">
+<!--   <div class="modal fade" id="login" role="dialog">
     <div class="modal-dialog modal-sm">
 
-      <!-- Modal content no 1-->
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -68,17 +68,17 @@
             <div class="form-group">
               <form name="" id="loginForm">
                 <div class="form-group has-feedback">
-                  <!----- username -------------->
+
                   <input class="form-control" placeholder="Username" id="loginid" type="text" autocomplete="off" />
                   <span style="display:none;font-weight:bold; position:absolute;color: red;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;" id="span_loginid"></span>
-                  <!---Alredy exists  ! -->
+
                   <span class="glyphicon glyphicon-user form-control-feedback"></span>
                 </div>
                 <div class="form-group has-feedback">
-                  <!----- password -------------->
+
                   <input class="form-control" placeholder="Password" id="loginpsw" type="password" autocomplete="off" />
                   <span style="display:none;font-weight:bold; position:absolute;color: grey;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;" id="span_loginpsw"></span>
-                  <!---Alredy exists  ! -->
+
                   <span class="glyphicon glyphicon-lock form-control-feedback"></span>
                 </div>
                 <div class="row">
@@ -100,7 +100,7 @@
       </div>
 
     </div>
-  </div>
+  </div> -->
   <!--/ Modal box-->
 
   <!--Banner-->
@@ -115,7 +115,7 @@
             <div class="intro-para text-center quote">
               <p class="big-text">From unrefined data to meaningful insights</p>
               <p class="small-text">“GeNet is a microarray gene expression analysis tool kit. It is a python based web application that can be used to preprocess,<br>visualize, analyze, model, and predict results using microarray gene expression data”</p>
-              <a href="#footer" class="btn get-quote">Learn more</a>
+              <a href="user_guide.html" class="btn get-quote">User guide</a>
             </div>
             <a href="#feature" class="mouse-hover">
               <div class="mouse"></div>
@@ -162,7 +162,7 @@
   <!--/ what is genet-->
 
   <!--Feature-->
-  <section id="feature" class="section-padding" style="padding-bottom: 0px;">
+  <section id="feature" class="section-padding-index">
     <div class="container">
       <div class="row">
         <div class="header-section text-center">
@@ -332,9 +332,9 @@
           <h2 class="text-center">Subscribe Now</h2>
           <p class="cta-2-txt">Stay in touch with us for the latest updates. Subscribe to us to get the latest news.</p>
           <div class="cta-2-form text-center">
-            <form action="#" method="post" id="workshop-newsletter-form">
-              <input name="" placeholder="Enter Your Email Address" type="email">
-              <input class="cta-2-form-submit-btn" value="Subscribe" type="submit">
+            <form method="post" id="workshop-newsletter-form">
+              <input class="subscribe_email_middle" placeholder="Enter Your Email Address" type="email">
+              <input id="subscribe_click" class="cta-2-form-submit-btn" value="Subscribe" type="button">
             </form>
           </div>
         </div>
@@ -444,7 +444,7 @@
   </section> -->
   <!--/ Faculity member-->
   <!--Testimonial-->
-  <section id="testimonial" class="section-padding">
+  <section id="testimonial" class="section-padding-index">
     <div class="container">
       <div class="row">
         <div class="header-section text-center">
@@ -601,7 +601,7 @@
   </section> -->
   <!--/ Pricing-->
   <!--Contact-->
-  <section id="contact" class="section-padding">
+  <section id="contact" class="section-padding-index">
     <div class="container">
       <div class="row">
         <div class="header-section text-center">
@@ -644,6 +644,9 @@
     </div>
   </section>
   <!--/ Contact-->
+
+  <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fa fa-arrow-circle-up fa-4x" aria-hidden="true"></i></a>
+
   <!--Footer-->
   <footer id="footer" class="footer">
     <div class="container text-center">
@@ -653,28 +656,26 @@
       <form class="mc-trial row">
         <div class="form-group col-md-3 col-md-offset-2 col-sm-4">
           <div class=" controls">
-            <input name="name" placeholder="Enter Your Name" class="form-control" type="text">
+            <input name="name" placeholder="Enter Your Name" class="form-control subscribe_name" type="text">
           </div>
         </div>
         <!-- End email input -->
         <div class="form-group col-md-3 col-sm-4">
           <div class=" controls">
-            <input name="EMAIL" placeholder="Enter Your email" class="form-control" type="email">
+            <input name="EMAIL" placeholder="Enter Your email" class="form-control subscribe_mail" type="email">
           </div>
         </div>
         <!-- End email input -->
         <div class="col-md-2 col-sm-4">
           <p>
-            <button name="submit" type="submit" class="btn btn-block btn-submit">
+            <button id="footer_button_click" name="submit" type="button" class="btn btn-block btn-submit">
             Submit <i class="fa fa-arrow-right"></i></button>
           </p>
         </div>
       </form>
       <!-- End newsletter-form -->
       <ul class="social-links">
-        <li><a href="#link"><i class="fa fa-twitter fa-fw"></i></a></li>
-        <li><a href="#link"><i class="fa fa-facebook fa-fw"></i></a></li>
-        <li><a href="#link"><i class="fa fa-google-plus fa-fw"></i></a></li>
+        <li><a href="#link"><i class="fa fa-youtube-play fa-fw"></i></a></li>
         <li><a href="#link"><i class="fa fa fa-github fa-fw fa-fw"></i></a></li>
       </ul>
       ©2020 GeNet team. All rights reserved
@@ -691,12 +692,158 @@
   </footer>
   <!--/ Footer-->
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery.easing.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/custom.js"></script>
-  <script src="contactform/contactform.js"></script>
-
 </body>
 
 </html>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="contactform/contactform.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+<script type="text/javascript">
+
+function validateEmail(email) {
+    var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+    if( !emailReg.test( email ) || email.length == 0) {
+        return false;
+    } else {
+        return true;
+    }
+}
+
+  $('#footer_button_click').click(function (){
+      
+      sub_email = $('.subscribe_mail').val();
+      sub_name = $('.subscribe_name').val();
+
+      if( sub_name.length <= 0 ){
+        Swal.fire({
+          position: 'center',
+          icon: 'error',
+          title: 'Please enter valid name !',
+          showConfirmButton: false,
+          timer: 2500
+        });
+      }
+      else if( sub_name.length >= 20 ){
+        Swal.fire({
+          position: 'center',
+          icon: 'error',
+          title: 'Please enter name smaller than 20 characters !',
+          showConfirmButton: false,
+          timer: 2500
+        });
+      } 
+      else if( sub_email.length >= 30 ){
+        Swal.fire({
+          position: 'center',
+          icon: 'error',
+          title: 'Please enter Email smaller than 30 characters !',
+          showConfirmButton: false,
+          timer: 2500
+        });
+      }            
+      else if(!validateEmail(sub_email)){
+        Swal.fire({
+          position: 'center',
+          icon: 'error',
+          title: 'Please enter valid email !',
+          showConfirmButton: false,
+          timer: 2500
+        });
+      }
+      else{
+        $.ajax({
+            url: 'contactform/subscribe_mail.php',
+            type: 'POST',
+            data: {
+                subscribe_click: 'submit',
+                subscribe_name: sub_name,
+                subscribe_email: sub_email
+            },
+            success: function(msg) {
+              $('#footer_button_click').attr("disabled", true);
+              $('#footer_button_click').css('opacity', '0.6');
+
+              Swal.fire({
+                position: 'center',
+                icon: 'success',
+                title: 'Thank you for subscribe us !',
+                showConfirmButton: false,
+                timer: 2500
+              });
+            },
+            error: function (request, status, error) {
+              Swal.fire({
+                position: 'center',
+                icon: 'error',
+                title: 'Sorry something went wrong !',
+                showConfirmButton: false,
+                timer: 2500
+              });
+            }              
+        });       
+      }
+
+  });
+
+  $('#subscribe_click').click(function (){
+      
+      sub_email = $('.subscribe_email_middle').val();
+
+      if( sub_email.length >= 30 ){
+        Swal.fire({
+          position: 'center',
+          icon: 'error',
+          title: 'Please enter Email smaller than 30 characters !',
+          showConfirmButton: false,
+          timer: 2500
+        });
+      }            
+      else if(!validateEmail(sub_email)){
+        Swal.fire({
+          position: 'center',
+          icon: 'error',
+          title: 'Please enter valid email !',
+          showConfirmButton: false,
+          timer: 2500
+        });
+      }
+      else{
+        $.ajax({
+            url: 'contactform/subscribe_mail.php',
+            type: 'POST',
+            data: {
+                subscribe_click: 'submit',
+                subscribe_email: sub_email
+            },
+            success: function(msg) {
+              $('#subscribe_click').attr("disabled", true);
+              $('#subscribe_click').css('opacity', '0.6');
+
+              Swal.fire({
+                position: 'center',
+                icon: 'success',
+                title: 'Thank you for subscribe us !',
+                showConfirmButton: false,
+                timer: 2500
+              });
+            },
+            error: function (request, status, error) {
+              Swal.fire({
+                position: 'center',
+                icon: 'error',
+                title: 'Sorry something went wrong !',
+                showConfirmButton: false,
+                timer: 2500
+              });
+            }              
+        });       
+      }
+
+  });
+
+</script>
