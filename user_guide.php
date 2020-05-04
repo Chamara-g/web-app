@@ -54,12 +54,12 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <li><a style="color: #5fcf80;">User guide</a></li>
-          <li><a href="manual.html">Manual</a></li>
-          <li><a href="nomenclature.html">Nomenclature</a></li>
-          <li><a href="crash_courses.html">Crash course</a></li>
-          <li><a href="faq.html">Faq</a></li>
+          <li><a href="manual.php">Manual</a></li>
+          <li><a href="nomenclature.php">Nomenclature</a></li>
+          <li><a href="crash_courses.php">Crash course</a></li>
+          <li><a href="faq.php">Faq</a></li>
         </ul>
       </div>
     </div>
@@ -296,7 +296,7 @@
                 <li>After choosing your data set (.csv file) click on the “SUBMIT” button to continue.</li>
                 <li>Click on the “info” icon to get more information on the input format of the data file.</li>               
               </ul>
-              <h4 class="sm-txt-manual"><a href="manual.html#upload_link" target="_blank">Click here for more info on the input format</a></h4>               
+              <h4 class="sm-txt-manual"><a href="manual.php#upload_link" target="_blank">Click here for more info on the input format</a></h4>               
             </hgroup>
           </div>
         </div>
@@ -316,6 +316,7 @@
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
               </ol>
 
               <!-- Wrapper for slides -->
@@ -333,15 +334,19 @@
                   <img src="img/manual/step_4/img3.jpg" style="width:100%;">
                 </div>
 
-              <!-- Left and right controls -->
-              <a class="left carousel-control" href="#myCarousel_step_4" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="right carousel-control" href="#myCarousel_step_4" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-              </a>
+                <div class="item">
+                  <img src="img/manual/step_4/img4.jpg" style="width:100%;">
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel_step_4" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel_step_4" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
             </div>
           </div>
         </div>
@@ -358,7 +363,7 @@
                 <li>If you want to get a quick glance at your data set, you can do so by clicking on the “View” button.</li>
                 <li><b>Interquartile Range:</b> You can choose the interquartile range of all the values corresponding to a particular gene symbol for each sample.</li>
               </ul>
-              <h4 class="sm-txt-manual"><a href="manual.html#preprocess_link" target="_blank">Click here for more info on annotation tables and probe selection methods</a></h4>
+              <h4 class="sm-txt-manual"><a href="manual.php#preprocess_link" target="_blank">Click here for more info on annotation tables and probe selection methods</a></h4>
             </hgroup>            
           </div>
         </div>
@@ -417,7 +422,7 @@
                 <li>Use the search bar to type in any value you want to search in the data set.</li>
               </ul>
             </hgroup>            
-            <h4 class="sm-txt-manual"><a href="manual.html#view_tb_link" target="_blank">Click this to see more details on the data set</a></h4>
+            <h4 class="sm-txt-manual"><a href="manual.php#view_tb_link" target="_blank">Click this to see more details on the data set</a></h4>
           </div>
         </div>
       </div>
@@ -500,7 +505,7 @@
                 <li>If you are all set, click on “PRE_PROCESS”.</li>
               </ul>
             </hgroup>            
-            <h4 class="sm-txt-manual"><a href="manual.html#imputation_link" target="_blank">Click here for more info on normalization and imputation.</a></h4>
+            <h4 class="sm-txt-manual"><a href="manual.php#imputation_link" target="_blank">Click here for more info on normalization and imputation.</a></h4>
           </div>
         </div>
       </div>
@@ -531,7 +536,7 @@
                 <li>Click “CONTINUE” to proceed.</li>
               </ul>
             </hgroup>            
-            <h4 class="sm-txt-manual"><a href="manual.html#after_pre_data_tb_link" target="_blank">Click this to see more details on the modified data set</a></h4>
+            <h4 class="sm-txt-manual"><a href="manual.php#after_pre_data_tb_link" target="_blank">Click this to see more details on the modified data set</a></h4>
           </div>
         </div>
       </div>
@@ -593,7 +598,7 @@
                 <li>After you select the appropriate values click on “CALCULATE” to filter out relevant genes.</li>
               </ul>
             </hgroup>            
-            <h4 class="sm-txt-manual"><a href="manual.html#fold_link" target="_blank">Click this to get more info on Fold Change and P-Values</a></h4>
+            <h4 class="sm-txt-manual"><a href="manual.php#fold_link" target="_blank">Click this to get more info on Fold Change and P-Values</a></h4>
           </div>
         </div>
       </div>
@@ -650,7 +655,7 @@
                 <li>After this step, your pre-processed file is automatically saved on your profile.</li>
               </ul>
             </hgroup>            
-            <h4 class="sm-txt-manual"><a href="manual.html#feature_reduction_link" target="_blank">Click this to get more info on this step</a></h4>
+            <h4 class="sm-txt-manual"><a href="manual.php#feature_reduction_link" target="_blank">Click this to get more info on this step</a></h4>
           </div>
         </div>
       </div>
@@ -709,7 +714,7 @@
                 <li>Click “CONTINUE” to proceed.</li>
               </ul>
             </hgroup>            
-            <h4 class="sm-txt-manual"><a href="manual.html#feature_selection" target="_blank">Click here to learn more about feature selection methods</a></h4>
+            <h4 class="sm-txt-manual"><a href="manual.php#feature_selection" target="_blank">Click here to learn more about feature selection methods</a></h4>
           </div>
         </div>
       </div>
@@ -774,7 +779,7 @@
                 <li>Click “Analyze” to proceed.</li>
               </ul>
             </hgroup>            
-            <h4 class="sm-txt-manual"><a href="manual.html#results_link" target="_blank">Click here to understand the results better</a></h4>
+            <h4 class="sm-txt-manual"><a href="manual.php#results_link" target="_blank">Click here to understand the results better</a></h4>
           </div>
         </div>
       </div>
@@ -826,7 +831,7 @@
                 <li>Select one method to proceed with the analysis.</li>
               </ul>
             </hgroup>            
-            <h4 class="sm-txt-manual"><a href="manual.html#analysis_link" target="_blank">Click here to learn more about analysis steps</a></h4>
+            <h4 class="sm-txt-manual"><a href="manual.php#analysis_link" target="_blank">Click here to learn more about analysis steps</a></h4>
           </div>
         </div>
       </div>
@@ -884,7 +889,7 @@
                 <li>Click “CONTINUE” to proceed.</li>
               </ul>
             </hgroup>            
-            <h4 class="sm-txt-manual"><a href="manual.html#analysis_results_link" target="_blank">Click here to learn more about this step</a></h4>
+            <h4 class="sm-txt-manual"><a href="manual.php#analysis_results_link" target="_blank">Click here to learn more about this step</a></h4>
           </div>
         </div>
       </div>
@@ -942,7 +947,7 @@
                 <li>Click “VALIDATE” to proceed.</li>
               </ul>
             </hgroup>            
-            <h4 class="sm-txt-manual"><a href="manual.html#final_results_link" target="_blank">Click here to get more information on the results obtained</a></h4>
+            <h4 class="sm-txt-manual"><a href="manual.php#final_results_link" target="_blank">Click here to get more information on the results obtained</a></h4>
           </div>
         </div>
       </div>
@@ -999,7 +1004,7 @@
                 <li>Click on “Modeling” to proceed to modeling steps.</li>
               </ul>
             </hgroup>            
-            <h4 class="sm-txt-manual"><a href="manual.html#validation_link" target="_blank">Click here to learn more about validation</a></h4>
+            <h4 class="sm-txt-manual"><a href="manual.php#validation_link" target="_blank">Click here to learn more about validation</a></h4>
           </div>
         </div>
       </div>
@@ -1059,7 +1064,7 @@
                 <li>Click on “Let’s try” to try and predict the results of a new data set.</li>
               </ul>
             </hgroup>            
-            <h4 class="sm-txt-manual"><a href="manual.html#modeling_link" target="_blank">What is Modeling?</a></h4>
+            <h4 class="sm-txt-manual"><a href="manual.php#modeling_link" target="_blank">What is Modeling?</a></h4>
           </div>
         </div>
       </div>
@@ -1119,7 +1124,7 @@
                 <li>Click on submit to see the predicted results.</li>
               </ul>
             </hgroup>            
-            <h4 class="sm-txt-manual"><a href="manual.html#prediction_link" target="_blank">Click here for more info on prediction</a></h4>
+            <h4 class="sm-txt-manual"><a href="manual.php#prediction_link" target="_blank">Click here for more info on prediction</a></h4>
           </div>
         </div>
       </div>
@@ -1228,7 +1233,7 @@
                 <li>Click on “UPDATE” to visualize different plots.</li>
               </ul>
             </hgroup>            
-            <h4 class="sm-txt-manual"><a href="manual.html#visualization_link" target="_blank">Click here to learn more about visualization steps</a></h4>
+            <h4 class="sm-txt-manual"><a href="manual.php#visualization_link" target="_blank">Click here to learn more about visualization steps</a></h4>
           </div>
         </div>
       </div>
@@ -1236,54 +1241,7 @@
   </section>
   <!--/ step_20-->
 
-  <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fa fa-arrow-circle-up fa-4x" aria-hidden="true"></i></a>
-  
-  <!--Footer-->
-  <footer id="footer" class="footer">
-    <div class="container text-center">
-
-      <h3>Stay in touch with us for the latest updates!</h3>
-
-      <form class="mc-trial row">
-        <div class="form-group col-md-3 col-md-offset-2 col-sm-4">
-          <div class=" controls">
-            <input name="name" placeholder="Enter Your Name" class="form-control" type="text">
-          </div>
-        </div>
-        <!-- End email input -->
-        <div class="form-group col-md-3 col-sm-4">
-          <div class=" controls">
-            <input name="EMAIL" placeholder="Enter Your email" class="form-control" type="email">
-          </div>
-        </div>
-        <!-- End email input -->
-        <div class="col-md-2 col-sm-4">
-          <p>
-            <button name="submit" type="submit" class="btn btn-block btn-submit">
-            Submit <i class="fa fa-arrow-right"></i></button>
-          </p>
-        </div>
-      </form>
-      <!-- End newsletter-form -->
-      <ul class="social-links">
-        <li><a href="#link"><i class="fa fa-twitter fa-fw"></i></a></li>
-        <li><a href="#link"><i class="fa fa-facebook fa-fw"></i></a></li>
-        <li><a href="#link"><i class="fa fa-google-plus fa-fw"></i></a></li>
-        <li><a href="#link"><i class="fa fa fa-github fa-fw fa-fw"></i></a></li>
-      </ul>
-      ©2020 GeNet team. All rights reserved
-      <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Mentor
-        -->
-        Designed by Department of Computer Engineering, University of Peradeniya
-      </div>
-    </div>
-  </footer>
-  <!--/ Footer-->
+<?php include 'footer.php';?>
 
 </body>
 
@@ -1293,5 +1251,6 @@
 <script src="js/jquery.easing.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/custom.js"></script>
-<script src="contactform/contactform.js"></script>
+<script src="contactform/subscribe.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 

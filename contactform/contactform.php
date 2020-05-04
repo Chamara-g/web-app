@@ -5,7 +5,7 @@ if(isset($_POST['submit_click_val'])){
     $name = $_POST['name'];
     $email = $_POST['email'];
     $subject = $_POST['name'];
-    $message = $_POST['email'];
+    $message = $_POST['message'];
 
     if( empty($name) || empty($email) || empty($subject) || empty($message)){
         //have to error handle

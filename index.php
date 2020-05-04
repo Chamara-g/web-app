@@ -40,11 +40,11 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a style="color: #5fcf80;">Home</a></li>
-          <li><a href="user_guide.html">User guide</a></li>
-          <li><a href="manual.html">Manual</a></li>
-          <li><a href="nomenclature.html">Nomenclature</a></li>
-          <li><a href="crash_course.html">Crash course</a></li>
-          <li><a href="faq.html">Faq</a></li>
+          <li><a href="user_guide.php">User guide</a></li>
+          <li><a href="manual.php">Manual</a></li>
+          <li><a href="nomenclature.php">Nomenclature</a></li>
+          <li><a href="crash_course.php">Crash course</a></li>
+          <li><a href="faq.php">Faq</a></li>
 <!--           <li class="btn-trial"><a href="#" data-target="#login" data-toggle="modal">Sign in</a></li> -->
         </ul>
       </div>
@@ -115,7 +115,7 @@
             <div class="intro-para text-center quote">
               <p class="big-text">From unrefined data to meaningful insights</p>
               <p class="small-text">“GeNet is a microarray gene expression analysis tool kit. It is a python based web application that can be used to preprocess,<br>visualize, analyze, model, and predict results using microarray gene expression data”</p>
-              <a href="user_guide.html" class="btn get-quote">User guide</a>
+              <a href="user_guide.php" class="btn get-quote">User guide</a>
             </div>
             <a href="#feature" class="mouse-hover">
               <div class="mouse"></div>
@@ -645,52 +645,7 @@
   </section>
   <!--/ Contact-->
 
-  <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fa fa-arrow-circle-up fa-4x" aria-hidden="true"></i></a>
-
-  <!--Footer-->
-  <footer id="footer" class="footer">
-    <div class="container text-center">
-
-      <h3>Stay in touch with us for the latest updates!</h3>
-
-      <form class="mc-trial row">
-        <div class="form-group col-md-3 col-md-offset-2 col-sm-4">
-          <div class=" controls">
-            <input name="name" placeholder="Enter Your Name" class="form-control subscribe_name" type="text">
-          </div>
-        </div>
-        <!-- End email input -->
-        <div class="form-group col-md-3 col-sm-4">
-          <div class=" controls">
-            <input name="EMAIL" placeholder="Enter Your email" class="form-control subscribe_mail" type="email">
-          </div>
-        </div>
-        <!-- End email input -->
-        <div class="col-md-2 col-sm-4">
-          <p>
-            <button id="footer_button_click" name="submit" type="button" class="btn btn-block btn-submit">
-            Submit <i class="fa fa-arrow-right"></i></button>
-          </p>
-        </div>
-      </form>
-      <!-- End newsletter-form -->
-      <ul class="social-links">
-        <li><a href="#link"><i class="fa fa-youtube-play fa-fw"></i></a></li>
-        <li><a href="#link"><i class="fa fa fa-github fa-fw fa-fw"></i></a></li>
-      </ul>
-      ©2020 GeNet team. All rights reserved
-      <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Mentor
-        -->
-        Designed by Department of Computer Engineering, University of Peradeniya
-      </div>
-    </div>
-  </footer>
-  <!--/ Footer-->
+<?php include 'footer.php';?>
 
 </body>
 
@@ -701,149 +656,5 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/custom.js"></script>
 <script src="contactform/contactform.js"></script>
+<script src="contactform/subscribe.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-
-<script type="text/javascript">
-
-function validateEmail(email) {
-    var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
-    if( !emailReg.test( email ) || email.length == 0) {
-        return false;
-    } else {
-        return true;
-    }
-}
-
-  $('#footer_button_click').click(function (){
-      
-      sub_email = $('.subscribe_mail').val();
-      sub_name = $('.subscribe_name').val();
-
-      if( sub_name.length <= 0 ){
-        Swal.fire({
-          position: 'center',
-          icon: 'error',
-          title: 'Please enter valid name !',
-          showConfirmButton: false,
-          timer: 2500
-        });
-      }
-      else if( sub_name.length >= 20 ){
-        Swal.fire({
-          position: 'center',
-          icon: 'error',
-          title: 'Please enter name smaller than 20 characters !',
-          showConfirmButton: false,
-          timer: 2500
-        });
-      } 
-      else if( sub_email.length >= 30 ){
-        Swal.fire({
-          position: 'center',
-          icon: 'error',
-          title: 'Please enter Email smaller than 30 characters !',
-          showConfirmButton: false,
-          timer: 2500
-        });
-      }            
-      else if(!validateEmail(sub_email)){
-        Swal.fire({
-          position: 'center',
-          icon: 'error',
-          title: 'Please enter valid email !',
-          showConfirmButton: false,
-          timer: 2500
-        });
-      }
-      else{
-        $.ajax({
-            url: 'contactform/subscribe_mail.php',
-            type: 'POST',
-            data: {
-                subscribe_click: 'submit',
-                subscribe_name: sub_name,
-                subscribe_email: sub_email
-            },
-            success: function(msg) {
-              $('#footer_button_click').attr("disabled", true);
-              $('#footer_button_click').css('opacity', '0.6');
-
-              Swal.fire({
-                position: 'center',
-                icon: 'success',
-                title: 'Thank you for subscribe us !',
-                showConfirmButton: false,
-                timer: 2500
-              });
-            },
-            error: function (request, status, error) {
-              Swal.fire({
-                position: 'center',
-                icon: 'error',
-                title: 'Sorry something went wrong !',
-                showConfirmButton: false,
-                timer: 2500
-              });
-            }              
-        });       
-      }
-
-  });
-
-  $('#subscribe_click').click(function (){
-      
-      sub_email = $('.subscribe_email_middle').val();
-
-      if( sub_email.length >= 30 ){
-        Swal.fire({
-          position: 'center',
-          icon: 'error',
-          title: 'Please enter Email smaller than 30 characters !',
-          showConfirmButton: false,
-          timer: 2500
-        });
-      }            
-      else if(!validateEmail(sub_email)){
-        Swal.fire({
-          position: 'center',
-          icon: 'error',
-          title: 'Please enter valid email !',
-          showConfirmButton: false,
-          timer: 2500
-        });
-      }
-      else{
-        $.ajax({
-            url: 'contactform/subscribe_mail.php',
-            type: 'POST',
-            data: {
-                subscribe_click: 'submit',
-                subscribe_email: sub_email
-            },
-            success: function(msg) {
-              $('#subscribe_click').attr("disabled", true);
-              $('#subscribe_click').css('opacity', '0.6');
-
-              Swal.fire({
-                position: 'center',
-                icon: 'success',
-                title: 'Thank you for subscribe us !',
-                showConfirmButton: false,
-                timer: 2500
-              });
-            },
-            error: function (request, status, error) {
-              Swal.fire({
-                position: 'center',
-                icon: 'error',
-                title: 'Sorry something went wrong !',
-                showConfirmButton: false,
-                timer: 2500
-              });
-            }              
-        });       
-      }
-
-  });
-
-</script>
