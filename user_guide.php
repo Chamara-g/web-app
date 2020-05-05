@@ -357,7 +357,7 @@
               <ul style="list-style-type: square; text-align: justify;">
                 <li>Choose your data set by clicking on the drop-down menu in the “Available Files” tab. The drop-down will show you the list of already uploaded data sets.</li>
                 <li>Choose the corresponding annotation table by clicking on the drop-down menu of the “Annotation Table” tab.</li>
-                <li>Select any Probe Selection method from the drop-down menu of the Probe Selection method.</li>
+                <li>Select any Probe Selection method from the drop-down menu of the Probe Selection method. You can choose 'other' option and upload a custom annotation table also.</li>
                 <li>If you want to proceed without mapping to gene symbols, click “SKIP MAPPING” button.</li>
                 <li>If you want to map the probe_IDs to gene symbols click “SUBMIT”.</li>
                 <li>If you want to get a quick glance at your data set, you can do so by clicking on the “View” button.</li>
@@ -500,7 +500,7 @@
             <hgroup>
               <h3 class="det-txt-manual">Normalization and Imputation</h3>
               <ul style="list-style-type: square; text-align: justify;">
-                <li>Select the scaling method by clicking on the drop-down menu in the scaling tab.</li>
+                <li>Select the normalization method by clicking on the drop-down menu in the scaling tab.</li>
                 <li>Select how you wish to handle the missing values by choosing a method from the Imputation tab.</li>
                 <li>If you are all set, click on “PRE_PROCESS”.</li>
               </ul>
