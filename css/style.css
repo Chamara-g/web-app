@@ -151,11 +151,11 @@ Banner
     position: relative;
 }
 .bg-color{
-	background-color: RGBA(12, 11, 11, 0.68);
+	background-color: RGBA(12, 11, 11, 0.85);
 	min-height: 580px;
 }
 .bg-color-manual{
-    background-color: RGBA(12, 11, 11, 0.68);
+    background-color: RGBA(12, 11, 11, 0.85);
     min-height: 430px;
 }
 .text-dec{
