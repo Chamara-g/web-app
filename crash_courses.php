@@ -77,7 +77,7 @@
       <div class="row">
         <div class="header-section text-center">
           <h2>Crash course</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
+          <p>Go through each of these videos, to get a step by step guide along the way.</p>
           <hr class="bottom-line">
         </div>
       </div>
