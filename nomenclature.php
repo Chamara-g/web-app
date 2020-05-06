@@ -44,7 +44,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="{{ url_for('index') }}">
+        <a class="navbar-brand" href="index.php">
             <img src="img/logo/logo.png" alt="logo" style="width:115px; margin-top: -3px;">
         </a>
       </div>

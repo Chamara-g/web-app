@@ -33,7 +33,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="{{ url_for('index') }}">
+        <a class="navbar-brand" href="index.php">
             <img src="img/logo/logo.png" alt="logo" style="width:115px; margin-top: -3px;">
         </a>
       </div>
@@ -83,83 +83,24 @@
       </div>
     </div>
     <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-sm-6 padleft-right">
-          <figure class="imghvr-fold-up">
-            <img src="img/crash_course/course_01.jpg" class="img-responsive">
-            <figcaption>
-              <h3>How to Log In</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
-            </figcaption>
-            <a  data-toggle="modal" data-target="#course_one"></a>
-          </figure>
-        </div>
-        <div class="col-md-4 col-sm-6 padleft-right">
-          <figure class="imghvr-fold-up">
-            <img src="img/course02.jpg" class="img-responsive">
-            <figcaption>
-              <h3>Course Name</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
-        <div class="col-md-4 col-sm-6 padleft-right">
-          <figure class="imghvr-fold-up">
-            <img src="img/course03.jpg" class="img-responsive">
-            <figcaption>
-              <h3>Course Name</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
-        <div class="col-md-4 col-sm-6 padleft-right">
-          <figure class="imghvr-fold-up">
-            <img src="img/course04.jpg" class="img-responsive">
-            <figcaption>
-              <h3>Course Name</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
-        <div class="col-md-4 col-sm-6 padleft-right">
-          <figure class="imghvr-fold-up">
-            <img src="img/course05.jpg" class="img-responsive">
-            <figcaption>
-              <h3>Course Name</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
-        <div class="col-md-4 col-sm-6 padleft-right">
-          <figure class="imghvr-fold-up">
-            <img src="img/course06.jpg" class="img-responsive">
-            <figcaption>
-              <h3>Course Name</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
-            </figcaption>
-            <a data-toggle="modal" data-target="#myModal"></a>
-          </figure>
-        </div>
-      </div>
+      <div class="row img_for_course_div"></div>
     </div>
   </section>
   <!--/ Courses-->
 
+<div class="video_model_div"></div>
+
   <!-- Modal -->
-  <div class="modal fade" id="course_one" role="dialog">
+  <div class="modal fade" id="course_model" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close close_course_one" data-dismiss="modal">&times;</button>
-          <p class="modal-title">How to Log In to GeNet</p>
+          <button type="button" class="close close_course_model" data-dismiss="modal">&times;</button>
+          <p class="modal-title head_name_model">How to Log In to GeNet</p>
         </div>
         <div class="modal-body">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item video_iframe_course_one" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0&enablejsapi=1" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item video_iframe_course_model" src="" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -178,16 +119,8 @@
 <script src="js/custom.js"></script>
 <script src="contactform/subscribe.js"></script>
 <script src="js/sweetalert2@9.js"></script>
-
 <script type="text/javascript">
 
-function video_play_close(name_course){
-  $('.close_' + name_course).click(function(){
-      var leg=$('.video_iframe_' + name_course).attr("src");
-      $('.video_iframe_' + name_course).attr("src",leg);
-  });
-}
-
-video_play_close('course_one');
-
 </script>
+
+<script src="js/crash_course.js"></script>
