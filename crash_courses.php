@@ -86,9 +86,9 @@
       <div class="row">
         <div class="col-md-4 col-sm-6 padleft-right">
           <figure class="imghvr-fold-up">
-            <img src="img/course01.jpg" class="img-responsive">
+            <img src="img/crash_course/course_01.jpg" class="img-responsive">
             <figcaption>
-              <h3>Course Name</h3>
+              <h3>How to Log In</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
             </figcaption>
             <a  data-toggle="modal" data-target="#course_one"></a>
@@ -155,7 +155,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close close_course_one" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Modal Header</h4>
+          <p class="modal-title">How to Log In to GeNet</p>
         </div>
         <div class="modal-body">
           <div class="embed-responsive embed-responsive-16by9">
@@ -177,7 +177,7 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/custom.js"></script>
 <script src="contactform/subscribe.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script src="js/sweetalert2@9.js"></script>
 
 <script type="text/javascript">
 
