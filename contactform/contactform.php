@@ -4,7 +4,7 @@ if(isset($_POST['submit_click_val'])){
 
     $name = $_POST['name'];
     $email = $_POST['email'];
-    $subject = $_POST['name'];
+    $subject = $_POST['subject'];
     $message = $_POST['message'];
 
     if( empty($name) || empty($email) || empty($subject) || empty($message)){
@@ -17,8 +17,10 @@ if(isset($_POST['submit_click_val'])){
 
         if ($connection->query($sql) === TRUE)
         {
+            echo "ok";
         } else {
             //have to error handle
+            echo "error";
         }
 
          $connection->close();

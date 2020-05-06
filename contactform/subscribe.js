@@ -59,16 +59,30 @@ function validateEmail(email) {
                 subscribe_email: sub_email
             },
             success: function(msg) {
-              $('#footer_button_click').attr("disabled", true);
-              $('#footer_button_click').css('opacity', '0.6');
+              if( msg == 'ok'){
+                $('#footer_button_click').attr("disabled", true);
+                $('#footer_button_click').css('opacity', '0.6');
 
-              Swal.fire({
-                position: 'center',
-                icon: 'success',
-                title: 'Thank you for subscribe us !',
-                showConfirmButton: false,
-                timer: 2500
-              });
+                $('.subscribe_name').val('');
+                $('.subscribe_mail').val('');
+
+                Swal.fire({
+                  position: 'center',
+                  icon: 'success',
+                  title: 'Thank you for subscribe us !',
+                  showConfirmButton: false,
+                  timer: 2500
+                });
+              }
+              else{
+                Swal.fire({
+                  position: 'center',
+                  icon: 'error',
+                  title: 'Sorry something went wrong !',
+                  showConfirmButton: false,
+                  timer: 2500
+                });
+              }
             },
             error: function (request, status, error) {
               Swal.fire({
@@ -112,19 +126,33 @@ function validateEmail(email) {
             type: 'POST',
             data: {
                 subscribe_click: 'submit',
+                subscribe_name: '',
                 subscribe_email: sub_email
             },
             success: function(msg) {
-              $('#subscribe_click').attr("disabled", true);
-              $('#subscribe_click').css('opacity', '0.6');
+              if( msg == 'ok' ){
+                $('#subscribe_click').attr("disabled", true);
+                $('#subscribe_click').css('opacity', '0.6');
 
-              Swal.fire({
-                position: 'center',
-                icon: 'success',
-                title: 'Thank you for subscribe us !',
-                showConfirmButton: false,
-                timer: 2500
-              });
+                $('.subscribe_email_middle').val('');
+
+                Swal.fire({
+                  position: 'center',
+                  icon: 'success',
+                  title: 'Thank you for subscribe us !',
+                  showConfirmButton: false,
+                  timer: 2500
+                });
+              }
+              else{
+                Swal.fire({
+                  position: 'center',
+                  icon: 'error',
+                  title: 'Sorry something went wrong !',
+                  showConfirmButton: false,
+                  timer: 2500
+                });
+              }
             },
             error: function (request, status, error) {
               Swal.fire({

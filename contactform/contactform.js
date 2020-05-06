@@ -90,6 +90,7 @@ jQuery(document).ready(function($) {
     });
     if (ferror) return false;
     else var str = $(this).serialize() + '&submit_click_val=ok';
+
     var action = $(this).attr('action');
     if( ! action ) {
       action = 'contactform/contactform.php';
@@ -100,16 +101,34 @@ jQuery(document).ready(function($) {
       url: action,
       data: str,
       success: function(msg) {
-        $('#submit').attr("disabled", true);
-        $('#submit').css('opacity', '0.6');
+        if( msg == 'ok'){
+          $('#submit').attr("disabled", true);
+          $('#submit').css('opacity', '0.6');
 
-        Swal.fire({
-          position: 'center',
-          icon: 'success',
-          title: 'Thank you for subscribe us !',
-          showConfirmButton: false,
-          timer: 2500
-        });
+          $('#name').val('');
+          $('#email').val('');
+          $('#subject').val('');
+          $('.text-div-tag').val('');
+
+
+          Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: 'Thank you for subscribe us !',
+            showConfirmButton: false,
+            timer: 2500
+          });
+        }
+        else{
+          Swal.fire({
+            position: 'center',
+            icon: 'error',
+            title: 'Sorry something went wrong !',
+            showConfirmButton: false,
+            timer: 2500
+          });
+        }
+
       },
       error: function (request, status, error) {
         Swal.fire({

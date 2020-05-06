@@ -43,7 +43,7 @@
           <li><a href="user_guide.php">User guide</a></li>
           <li><a href="manual.php">Manual</a></li>
           <li><a href="nomenclature.php">Nomenclature</a></li>
-          <li><a href="crash_course.php">Crash course</a></li>
+          <li><a href="crash_courses.php">Crash course</a></li>
           <li><a href="faq.php">Faq</a></li>
 <!--           <li class="btn-trial"><a href="#" data-target="#login" data-toggle="modal">Sign in</a></li> -->
         </ul>
@@ -629,7 +629,7 @@
 
           <div class="col-md-6 col-sm-6 col-xs-12 right">
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <textarea class="form-control text-div-tag" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
               <div class="validation"></div>
             </div>
           </div>

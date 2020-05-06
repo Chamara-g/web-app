@@ -17,10 +17,11 @@ if(isset($_POST['subscribe_click'])){
 
         $sql = "INSERT INTO subscribe_list_tb (user_name, user_email) VALUES ('$name', '$email')";
 
-        if ($connection->query($sql) === TRUE)
-        {
+        if ($connection->query($sql) === TRUE){
+            echo "ok";
         } else {
             //have to error handle
+            echo "error";
         }
 
          $connection->close();
