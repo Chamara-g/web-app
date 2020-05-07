@@ -147,7 +147,7 @@ Banner
 .banner-manual{
     background: url('../img/bg-banner.jpg') no-repeat center top;
     background-size: cover;
-    min-height: 430px;
+    min-height: 365px;
     position: relative;
 }
 .bg-color{
@@ -156,7 +156,7 @@ Banner
 }
 .bg-color-manual{
     background-color: RGBA(12, 11, 11, 0.85);
-    min-height: 430px;
+    min-height: 365px;
 }
 .text-dec{
 	font-size: 24px;

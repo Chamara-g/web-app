@@ -47,7 +47,7 @@
     position: absolute;
     top: -16px;
     left: 2px;    
-    width: 3%;
+    width: 35px;
     height: 38px;
     background-color: white;
   }

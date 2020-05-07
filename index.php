@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>GeNet</title>
+  <title>GeNet Guide</title>
 
   <link rel="icon" href="img/logo/favicon.png" sizes="32x32" />
   <link rel="icon" href="img/logo/favicon.png" sizes="192x192" />
