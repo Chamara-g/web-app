@@ -32,7 +32,25 @@
   .answer_faq{
     display: none;
   }
-
+  .detail-info{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .quetion_icon_tag{
+    position: absolute;
+    top: 3px;
+    left: 2px;    
+  }
+  .icon_background{
+    position: absolute;
+    top: -16px;
+    left: 2px;    
+    width: 3%;
+    height: 38px;
+    background-color: white;
+  }
 </style>
 
 <body>
@@ -88,6 +106,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
+          <div class="icon_background">
+            <i class="fa fa-question-circle fa-2x quetion_icon_tag" aria-hidden="true" style="color: #5fcf80"></i>
+          </div>
           <div class="detail-info">
             <hgroup>
               <h3 class="det-txt-manual h3_faq">01. Who can use GeNet?</h3>
@@ -98,6 +119,9 @@
       </div>
       <div class="row">
         <div class="col-md-12">
+          <div class="icon_background">
+            <i class="fa fa-question-circle fa-2x quetion_icon_tag" aria-hidden="true" style="color: #5fcf80"></i>
+          </div>
           <div class="detail-info">
             <hgroup>
               <h3 class="det-txt-manual h3_faq">02. Do we need to have any background knowledge to use GeNet?</h3>
@@ -108,6 +132,9 @@
       </div>
       <div class="row">
         <div class="col-md-12">
+          <div class="icon_background">
+            <i class="fa fa-question-circle fa-2x quetion_icon_tag" aria-hidden="true" style="color: #5fcf80"></i>
+          </div>
           <div class="detail-info">
             <hgroup>
               <h3 class="det-txt-manual h3_faq">03. What kind of files can be input to the system?</h3>
