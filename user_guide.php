@@ -1200,7 +1200,7 @@
               <div class="carousel-inner">
 
                 <div class="item active">
-                  <img class="lazy" data-original="lazy" data-original="img/manual/step_20/img1.jpg" style="width:100%;">
+                  <img class="lazy" data-original="img/manual/step_20/img1.jpg" style="width:100%;">
                 </div>
 
                 <div class="item">
