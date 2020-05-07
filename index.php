@@ -137,6 +137,18 @@
           <hr class="bottom-line">
         </div>
       </div>
+      <div class="row">
+  <!-- Modal -->
+    <div class="modal-dialog-1">
+      <div class="modal-content" style="box-shadow: none; border: 2px solid #5fcf80">
+        <div class="modal-body">
+          <div class="embed-responsive embed-responsive-16by9" style="box-shadow: none;">
+              <iframe src="https://www.youtube.com/embed/yz04R_PKH2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
 <!--       <div class="row">
         <div class="header-section text-center">
           <p>GeNet is a ready-to-go web application that does not need any external requirements. By using GeNet you can easily</p>

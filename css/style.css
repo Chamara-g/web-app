@@ -734,6 +734,11 @@ Footer
 Responsive media queries
 ************************************
 ***********************************/
+@media ( min-width: 980px ) {
+    .modal-dialog-1{
+        margin: 0px 285px;
+    }    
+}
 @media (min-width: 769px) and (max-width: 980px) {
     .ser-text {
     font-size: 20px;
@@ -747,6 +752,9 @@ Responsive media queries
     .price-table .pricing-head h4 {
     font-size: 18px;
     }
+    .modal-dialog-1{
+        margin: 0px 285px;
+    }    
 }
 @media (min-width: 451px) and (max-width: 768px) {
     .ser-text {
@@ -761,6 +769,9 @@ Responsive media queries
     }
     .price-table .pricing-head h4 {
     font-size: 18px;
+    }
+    .modal-dialog-1{
+        margin: 0px 285px;
     }
 }
 @media (min-width: 20px) and (max-width: 450px) {
