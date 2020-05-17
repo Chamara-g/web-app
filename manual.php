@@ -812,7 +812,7 @@
             <div class="item animate_right img-div">
               <img src="img/manual/step_22/img3.jpg" style="width:100%;">
             </div>
-        </div>        
+        </div>
       </div>
       <div class="row">
           <p class="det-p-manual">The Box plot at the left shows the box plot drawn considering all the samples. The box plot at the right shows to box plots drawn with the samples of each class only. For example, if one class is about the positive samples and the other class should contain only the data about negative samples.</p>        
