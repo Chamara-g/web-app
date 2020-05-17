@@ -699,7 +699,7 @@
         <div class="col-md-6">
           <div class="detail-info">
             <hgroup>
-              <p class="det-p-manual">The second section deals with our final set of results (overlapped genes and the genes found by considering correlation). The table shows details of those already identified genes together with a relevance score for the selected disease. Relevance scores are obtained from GeneCards by considering biological literature. The higher the relevance score, the more the gene is expected to have an impact on the disease.</p>
+              <p class="det-p-manual">This graph shows the gene regulatory network for the union of genes that are selected by all the three feature selection methods. This can be used to see if there’s any interaction between the finally extracted genes and the previously selected genes by the feature selection methods. The nodes in the red colour show the final set of genes that were selected using the overlapped set of genes and by considering correlation values. The genes that are not extracted in the final result are shown in green colour.</p>
             </hgroup>
           </div>
         </div>
@@ -769,7 +769,7 @@
             <hgroup>
               <p class="det-p-manual">This visualization tool is designed for users to quickly grasp the patterns of gene expression data. You can choose a given data set and visualize the patterns related to a feature.</p>
              <ul style="list-style-type: square; text-align: justify;">
-                <li><b>Scatter Plot:</b>Scatter Plot: This graph shows the values for gene expression data corresponding to the two distinct classes.</li>
+                <li><b>Distribution of gene expression values:</b> This graph shows how the gene expression values vary across all the samples with respect to the chosen symbol.</li>
                 <li><b>Histogram:</b> A histogram is a graphical display of data using bars of different heights. In a histogram, each bar group numbers into ranges. The y-axis shows the number of instances with the range shown in the x-axis. Taller bars show that more data falls in that range. A histogram displays the shape and spread of continuous sample data.</li>
                 <li><b>Box Plot:</b> This displays the five-number summary of a set of data. The five-number summary is the minimum, first quartile, median, third quartile, and maximum. The box is drawn from the first quartile to the third quartile. A vertical line goes through the box at the median. The whiskers go from each quartile to the minimum or maximum.</li>
               </ul>             
@@ -793,18 +793,13 @@
   <section id="classification_link" class="section-padding-manual">
     <div class="container">
       <div class="row">
-        <h3 class="det-txt-manual">Classification</h3>
+        <h3 class="det-txt-manual">Clustering</h3>
       </div>                         
       <div class="row">
         <div class="col-md-6">
           <div class="detail-info">
             <hgroup>
-              <p class="det-p-manual">This visualization tool is designed for users to quickly grasp the patterns of gene expression data. You can choose a given data set and visualize the patterns related to a feature.</p>
-             <ul style="list-style-type: square; text-align: justify;">
-                <li><b>Scatter Plot:</b>Scatter Plot: This graph shows the values for gene expression data corresponding to the two distinct classes.</li>
-                <li><b>Histogram:</b> A histogram is a graphical display of data using bars of different heights. In a histogram, each bar group numbers into ranges. The y-axis shows the number of instances with the range shown in the x-axis. Taller bars show that more data falls in that range. A histogram displays the shape and spread of continuous sample data.</li>
-                <li><b>Box Plot:</b> This displays the five-number summary of a set of data. The five-number summary is the minimum, first quartile, median, third quartile, and maximum. The box is drawn from the first quartile to the third quartile. A vertical line goes through the box at the median. The whiskers go from each quartile to the minimum or maximum.</li>
-              </ul>             
+              <p class="det-p-manual" style="display: inline;">GeNet provides the facility to construct a gene network based on the graphical lasso method of the <h4 class="sm-txt-manual" style="display: inline;"><a href="https://scikit-learn.org/stable/modules/generated/sklearn.covariance.GraphicalLasso.html" target="_blank">sklearn library</a></h4> This can be used to describe the interactions among different genes. It depicts how a set of genes interact with each other to form a functional module and how different gene modules are related. In GeNet, by default it shows how all the genes are interrelated with each other. By clicking the drop down menu of “Select Cluster” you can visualize how a specific cluster behaves. The drop down menu consists of different clusters that could be constructed using the graphical lasso method. By selecting one out of those, you can visualize that specific cluster. The blue nodes represent the selected nodes of that cluster while the other coloured nodes represent the other genes that are related with the selected cluster nodes.</p>            
             </hgroup>
           </div>
         </div>
@@ -814,12 +809,9 @@
             </div>
         </div>
       </div>
-      <div class="row">
-          <p class="det-p-manual">The Box plot at the left shows the box plot drawn considering all the samples. The box plot at the right shows to box plots drawn with the samples of each class only. For example, if one class is about the positive samples and the other class should contain only the data about negative samples.</p>        
-      </div>
     </div>
   </section>
-  <!--/ step_16-->
+  <!--/ step_22-->
 
 <?php include 'footer.php';?>
 

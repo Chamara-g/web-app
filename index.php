@@ -115,7 +115,7 @@
             <div class="intro-para text-center quote">
               <p class="big-text">From unrefined data to meaningful insights</p>
               <p class="small-text">“GeNet is a microarray gene expression analysis tool kit. It is a python based web application that can be used to preprocess,<br>visualize, analyze, model, and predict results using microarray gene expression data”</p>
-              <a href="user_guide.php" class="btn get-quote">User guide</a>
+              <a href="https://genet.genetlabs.com/" class="btn get-quote" target="_blank">GeNet Tool</a>
             </div>
             <a href="#feature" class="mouse-hover">
               <div class="mouse"></div>

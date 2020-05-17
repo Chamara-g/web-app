@@ -1297,14 +1297,15 @@
         <div class="col-md-6">
           <div class="detail-info">
             <hgroup>
-              <h3 class="det-txt-manual">Classification</h3>
+              <h3 class="det-txt-manual">CLUSTERING</h3>
               <ul style="list-style-type: square; text-align: justify;">
-                <li>Choose a data set from “Available Files”.</li>
-                <li>Input the gene symbol you want to visualize.</li>
-                <li>Click on “UPDATE” to visualize different plots.</li>
+                <li>Choose a file you want to visualize gene regulatory network.</li>
+                <li>You can visualize a specific cluster by choosing the particular cluster on the drop down menu of “Select Cluster”.</li>
+                <li>You can also  zoom in and out the cluster to get a better view.</li>
+                <li>Click on “Change File” to visualize gene network patterns of a different file.</li>
               </ul>
             </hgroup>            
-            <h4 class="sm-txt-manual"><a href="manual.php#classification_link" target="_blank">Click here to learn more about classification steps</a></h4>
+            <h4 class="sm-txt-manual"><a href="manual.php#classification_link" target="_blank">Click here to learn more about clustering steps</a></h4>
           </div>
         </div>
       </div>
