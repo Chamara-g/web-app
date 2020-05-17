@@ -132,7 +132,7 @@
     <div class="container">
       <div class="row">
         <div class="header-section text-center">
-          <h2>What is Genet?</h2>
+          <h2>What is GeNet?</h2>
           <p>Microarray is a widely used technology in biomedical research. The proper analysis of microarray gene expression data is used in revealing underlying mechanisms of biological processes. To make this process easier, we present you GeNet, an easy to use python-based web application integrated with a machine learning framework and statistical methods. GeNet is designed carefully targeting a wide range of users. Bio informaticians, researchers, computer scientists, statistical analysts, etc can use the application without prior knowledge in other fields. It provides a hassle-free and interactive user experience that makes the analysis process much simpler and enjoyable. GeNet provides many analysis steps including different techniques for pre-processing, visualization, modeling, prediction, and validation of the results with a user-friendly GUI. Get started and explore more with GeNet.</p>
           <hr class="bottom-line">
         </div>
@@ -234,6 +234,17 @@
           <div class="fea">
             <div class="col-md-4">
               <div class="heading pull-right">
+                <h4>Classification</h4>
+                <p>Visualize the behavior and patterns of your data with GeNet for better understanding. Rather than being overwhelmed by the huge number of numerical data why not try distilling it into visual graphics where you can easily grab the complex patterns and relationships.</p>
+              </div>
+              <div class="fea-img pull-left">
+                <i class="fa fa-object-ungroup"></i>
+              </div>
+            </div>
+          </div>          
+          <div class="fea">
+            <div class="col-md-4">
+              <div class="heading pull-right">
                 <h4>Selecting the best set of genes</h4>
                 <p>Understanding microarray gene expression data can be exhausting due to its high dimensionality. It usually contains data about thousands of genes. How can you select the set of most impactful genes out of those? GeNet is there for the rescue! It provides you with efficient methods and allows you to extract the most reliable set of genes related to your data set.</p>
               </div>
@@ -242,6 +253,10 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="feature-info">
           <div class="fea">
             <div class="col-md-4">
               <div class="heading pull-right">
@@ -252,11 +267,7 @@
                 <i class="fa fa-pie-chart"></i>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="feature-info">
+          </div>          
           <div class="fea">
             <div class="col-md-4">
               <div class="heading pull-right">
@@ -279,6 +290,14 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="feature-info">
+          <div class="fea">
+            <div class="col-md-4">
+            </div>
+          </div>    
           <div class="fea">
             <div class="col-md-4">
               <div class="heading pull-right">
@@ -290,8 +309,12 @@
               </div>
             </div>
           </div>
+          <div class="fea">
+            <div class="col-md-4">
+            </div>
+          </div>
         </div>
-      </div>      
+      </div>          
     </div>
   </section>
   <!--/ feature-->

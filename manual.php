@@ -96,7 +96,7 @@
       <div class="row">
         <div class="col-md-6">
             <div class="item animate_left img-div">
-              <img class="lazy" data-original="img/manual/step_3/manual_1.jpg" style="width:100%;">
+              <img src="img/manual/step_3/manual_1.jpg" style="width:100%;">
             </div>
         </div>
         <div class="col-md-6">
@@ -110,7 +110,7 @@
       <div class="row">
         <div class="col-md-6">
             <div class="item animate_left img-div">
-              <img class="lazy" data-original="img/manual/step_3/manual_2.jpg" style="width:100%;">
+              <img src="img/manual/step_3/manual_2.jpg" style="width:100%;">
             </div>
         </div>
         <div class="col-md-6">
@@ -126,7 +126,7 @@
       <div class="row">
         <div class="col-md-6">
             <div class="item animate_left img-div">
-              <img class="lazy" data-original="img/manual/step_3/manual_3.jpg" style="width:100%;">
+              <img src="img/manual/step_3/manual_3.jpg" style="width:100%;">
             </div>
         </div>
         <div class="col-md-6">
@@ -164,7 +164,7 @@
         </div>
         <div class="col-md-6">
             <div class="item animate_right img-div">
-              <img class="lazy" data-original="img/manual/step_4/img2.jpg" style="width:100%;">
+              <img src="img/manual/step_4/img2.jpg" style="width:100%;">
             </div>
         </div>        
       </div>
@@ -185,7 +185,7 @@
         </div>
         <div class="col-md-6" style="margin-top: 30px;">
             <div class="item animate_right img-div">
-              <img class="lazy" data-original="img/manual/step_4/img3.jpg" style="width:100%;">
+              <img src="img/manual/step_4/img3.jpg" style="width:100%;">
             </div>
         </div>        
       </div>      
@@ -202,7 +202,7 @@
       <div class="row">
         <div class="col-md-6">
             <div class="item animate_left img-div">
-              <img class="lazy" data-original="img/manual/step_5/img1.jpg" style="width:100%;">
+              <img src="img/manual/step_5/img1.jpg" style="width:100%;">
             </div>
         </div>
         <div class="col-md-6">
@@ -232,7 +232,7 @@
         </div>
         <div class="col-md-6">
             <div class="item animate_right img-div">
-              <img class="lazy" data-original="img/manual/step_7/manual_1.jpg" style="width:100%;">
+              <img src="img/manual/step_7/manual_1.jpg" style="width:100%;">
             </div>
         </div>        
       </div>
@@ -246,7 +246,7 @@
         </div>
         <div class="col-md-6">
             <div class="item animate_right img-div">
-              <img class="lazy" data-original="img/manual/step_7/manual_2.jpg" style="width:100%;">
+              <img src="img/manual/step_7/manual_2.jpg" style="width:100%;">
             </div>
         </div>        
       </div>
@@ -261,7 +261,7 @@
         </div>
         <div class="col-md-6" style="margin-top: 30px;">
             <div class="item animate_right img-div">
-              <img class="lazy" data-original="img/manual/step_7/manual_3.jpg" style="width:100%;">
+              <img src="img/manual/step_7/manual_3.jpg" style="width:100%;">
             </div>
         </div>        
       </div>            
@@ -278,7 +278,7 @@
       <div class="row">
         <div class="col-md-6">
             <div class="item animate_left img-div">
-              <img class="lazy" data-original="img/manual/step_8/img1.jpg" style="width:100%;">
+              <img src="img/manual/step_8/img1.jpg" style="width:100%;">
             </div>
         </div>
         <div class="col-md-6">
@@ -328,7 +328,7 @@
         </div>
         <div class="col-md-6">
             <div class="item animate_right img-div">
-              <img class="lazy" data-original="img/manual/step_9/manual_1.jpg" style="width:100%;">
+              <img src="img/manual/step_9/manual_1.jpg" style="width:100%;">
             </div>
         </div>        
       </div>       
@@ -349,7 +349,7 @@
       <div class="row">
         <div class="col-md-6">
             <div class="item animate_left img-div">
-              <img class="lazy" data-original="img/manual/step_10/manual_1.jpg" style="width:100%;">
+              <img src="img/manual/step_10/manual_1.jpg" style="width:100%;">
             </div>
         </div>
         <div class="col-md-6">
@@ -364,7 +364,7 @@
       <div class="row">
         <div class="col-md-6">
             <div class="item animate_left img-div">
-              <img class="lazy" data-original="img/manual/step_10/manual_2.jpg" style="width:100%;">
+              <img src="img/manual/step_10/manual_2.jpg" style="width:100%;">
             </div>
         </div>
         <div class="col-md-6">
@@ -394,7 +394,7 @@
         </div>
         <div class="col-md-6">
             <div class="item animate_right img-div">
-              <img class="lazy" data-original="img/manual/step_11/manual_1.jpg" style="width:100%;">
+              <img src="img/manual/step_11/manual_1.jpg" style="width:100%;">
             </div>
         </div>        
       </div>       
@@ -423,7 +423,7 @@
       <div class="row">
         <div class="col-md-6">
             <div class="item animate_left img-div">
-              <img class="lazy" data-original="img/manual/step_12/img1.jpg" style="width:100%;">
+              <img src="img/manual/step_12/img1.jpg" style="width:100%;">
             </div>
         </div>
         <div class="col-md-6">
@@ -437,7 +437,7 @@
       <div class="row">
         <div class="col-md-6">
             <div class="item animate_left img-div">
-              <img class="lazy" data-original="img/manual/step_12/manual_2.jpg" style="width:100%;">
+              <img src="img/manual/step_12/manual_2.jpg" style="width:100%;">
             </div>
         </div>
         <div class="col-md-6">
@@ -470,7 +470,7 @@
         </div>
         <div class="col-md-6">
             <div class="item animate_right img-div">
-              <img class="lazy" data-original="img/manual/step_13/manual_1.jpg" style="width:100%;">
+              <img src="img/manual/step_13/manual_1.jpg" style="width:100%;">
             </div>
         </div>        
       </div>
@@ -484,7 +484,7 @@
         </div>
         <div class="col-md-6">
             <div class="item animate_right img-div">
-              <img class="lazy" data-original="img/manual/step_13/manual_2.jpg" style="width:100%;">
+              <img src="img/manual/step_13/manual_2.jpg" style="width:100%;">
             </div>
         </div>        
       </div> 
@@ -498,7 +498,7 @@
         </div>
         <div class="col-md-6">
             <div class="item animate_right img-div">
-              <img class="lazy" data-original="img/manual/step_13/manual_3.jpg" style="width:100%;">
+              <img src="img/manual/step_13/manual_3.jpg" style="width:100%;">
             </div>
         </div>        
       </div>                   
@@ -524,7 +524,7 @@
         </div>
         <div class="col-md-6">
             <div class="item animate_right img-div">
-              <img class="lazy" data-original="img/manual/step_13/img2.jpg" style="width:100%;">
+              <img src="img/manual/step_13/img2.jpg" style="width:100%;">
             </div>
         </div>        
       </div>                                            
@@ -541,7 +541,7 @@
       <div class="row">
         <div class="col-md-6">
             <div class="item animate_left img-div">
-              <img class="lazy" data-original="img/manual/step_14/manual_1.jpg" style="width:100%;">
+              <img src="img/manual/step_14/manual_1.jpg" style="width:100%;">
             </div>
         </div>
         <div class="col-md-6">
@@ -555,7 +555,7 @@
       <div class="row">
         <div class="col-md-6">
             <div class="item animate_left img-div">
-              <img class="lazy" data-original="img/manual/step_14/manual_2.jpg" style="width:100%;">
+              <img src="img/manual/step_14/manual_2.jpg" style="width:100%;">
             </div>
         </div>
         <div class="col-md-6">
@@ -569,7 +569,7 @@
       <div class="row">
         <div class="col-md-6">
             <div class="item animate_left img-div">
-              <img class="lazy" data-original="img/manual/step_14/manual_3.jpg" style="width:100%;">
+              <img src="img/manual/step_14/manual_3.jpg" style="width:100%;">
             </div>
         </div>
         <div class="col-md-6">
@@ -603,7 +603,7 @@
         </div>
         <div class="col-md-6">
             <div class="item animate_right img-div">
-              <img class="lazy" data-original="img/manual/step_15/manual_1.jpg" style="width:100%;">
+              <img src="img/manual/step_15/manual_1.jpg" style="width:100%;">
             </div>
         </div>        
       </div>
@@ -617,7 +617,7 @@
         </div>
         <div class="col-md-6">
             <div class="item animate_right img-div">
-              <img class="lazy" data-original="img/manual/step_15/manual_2.jpg" style="width:100%;">
+              <img src="img/manual/step_15/manual_2.jpg" style="width:100%;">
             </div>
         </div>        
       </div>
@@ -631,7 +631,7 @@
         </div>
         <div class="col-md-6">
             <div class="item animate_right img-div">
-              <img class="lazy" data-original="img/manual/step_15/manual_3.jpg" style="width:100%;">
+              <img src="img/manual/step_15/manual_3.jpg" style="width:100%;">
             </div>
         </div>        
       </div> 
@@ -645,7 +645,7 @@
         </div>
         <div class="col-md-6">
             <div class="item animate_right img-div">
-              <img class="lazy" data-original="img/manual/step_15/img3.jpg" style="width:100%;">
+              <img src="img/manual/step_15/img3.jpg" style="width:100%;">
             </div>
         </div>        
       </div>
@@ -665,7 +665,7 @@
       <div class="row">
         <div class="col-md-6">
             <div class="item animate_left img-div">
-              <img class="lazy" data-original="img/manual/step_16/manual_1.jpg" style="width:100%;">
+              <img src="img/manual/step_16/manual_1.jpg" style="width:100%;">
             </div>
         </div>
         <div class="col-md-6">
@@ -679,7 +679,7 @@
       <div class="row">
         <div class="col-md-6">
             <div class="item animate_left img-div">
-              <img class="lazy" data-original="img/manual/step_16/img3.jpg" style="width:100%;">
+              <img src="img/manual/step_16/img3.jpg" style="width:100%;">
             </div>
         </div>
         <div class="col-md-6">
@@ -690,6 +690,20 @@
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-md-6">
+            <div class="item animate_left img-div">
+              <img src="img/manual/step_16/img4.jpg" style="width:100%;">
+            </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-info">
+            <hgroup>
+              <p class="det-p-manual">The second section deals with our final set of results (overlapped genes and the genes found by considering correlation). The table shows details of those already identified genes together with a relevance score for the selected disease. Relevance scores are obtained from GeneCards by considering biological literature. The higher the relevance score, the more the gene is expected to have an impact on the disease.</p>
+            </hgroup>
+          </div>
+        </div>
+      </div>      
     </div>      
   </section>
   <!--/ step_13-->
@@ -711,7 +725,7 @@
         </div>
         <div class="col-md-6">
             <div class="item animate_right img-div">
-              <img class="lazy" data-original="img/manual/step_17/manual_1.jpg" style="width:100%;">
+              <img src="img/manual/step_17/manual_1.jpg" style="width:100%;">
             </div>
         </div>        
       </div>
@@ -728,7 +742,7 @@
       <div class="row">
         <div class="col-md-6">
             <div class="item animate_left img-div">
-              <img class="lazy" data-original="img/manual/step_18/img1.jpg" style="width:100%;">
+              <img src="img/manual/step_18/img1.jpg" style="width:100%;">
             </div>
         </div>
         <div class="col-md-6">
@@ -764,7 +778,39 @@
         </div>
         <div class="col-md-6">
             <div class="item animate_right img-div">
-              <img class="lazy" data-original="img/manual/step_20/img3.jpg" style="width:100%;">
+              <img src="img/manual/step_20/img3.jpg" style="width:100%;">
+            </div>
+        </div>        
+      </div>
+      <div class="row">
+          <p class="det-p-manual">The Box plot at the left shows the box plot drawn considering all the samples. The box plot at the right shows to box plots drawn with the samples of each class only. For example, if one class is about the positive samples and the other class should contain only the data about negative samples.</p>        
+      </div>
+    </div>
+  </section>
+  <!--/ step_16-->
+
+  <!--step_22-->
+  <section id="classification_link" class="section-padding-manual">
+    <div class="container">
+      <div class="row">
+        <h3 class="det-txt-manual">Classification</h3>
+      </div>                         
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-info">
+            <hgroup>
+              <p class="det-p-manual">This visualization tool is designed for users to quickly grasp the patterns of gene expression data. You can choose a given data set and visualize the patterns related to a feature.</p>
+             <ul style="list-style-type: square; text-align: justify;">
+                <li><b>Scatter Plot:</b>Scatter Plot: This graph shows the values for gene expression data corresponding to the two distinct classes.</li>
+                <li><b>Histogram:</b> A histogram is a graphical display of data using bars of different heights. In a histogram, each bar group numbers into ranges. The y-axis shows the number of instances with the range shown in the x-axis. Taller bars show that more data falls in that range. A histogram displays the shape and spread of continuous sample data.</li>
+                <li><b>Box Plot:</b> This displays the five-number summary of a set of data. The five-number summary is the minimum, first quartile, median, third quartile, and maximum. The box is drawn from the first quartile to the third quartile. A vertical line goes through the box at the median. The whiskers go from each quartile to the minimum or maximum.</li>
+              </ul>             
+            </hgroup>
+          </div>
+        </div>
+        <div class="col-md-6">
+            <div class="item animate_right img-div">
+              <img src="img/manual/step_22/img3.jpg" style="width:100%;">
             </div>
         </div>        
       </div>
@@ -787,21 +833,14 @@
 <script src="js/custom.js"></script>
 <script src="contactform/subscribe.js"></script>
 <script src="js/sweetalert2@9.js"></script>
-<script src="js/1_9_7_jquery.lazyload.js"></script>
 
 <script type="text/javascript">
 
-// $(window).on('load', function() {
-//     $('.animate_left').addClass('animated bounceInLeft');
-// });
-// $(window).on('load', function() {
-//     $('.animate_right').addClass('animated bounceInRight');
-// });
-
-$(document).ready(function(){
-  $('img.lazy').lazyload({
-    effect: "fadeIn"
-  });
+$(window).on('load', function() {
+    $('.animate_left').addClass('animated bounceInLeft');
+});
+$(window).on('load', function() {
+    $('.animate_right').addClass('animated bounceInRight');
 });
 
 </script>
