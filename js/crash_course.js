@@ -22,7 +22,43 @@ course_set = [
     video_head_name: 'Visualization | Gene Expression Analysis Tool | GeNet',
     head_pop_name: 'Visualization',
     p_pop_name: 'Overview idea about Visualization tab.'
-  }  
+  },
+  {
+    video_link: 'https://www.youtube.com/embed/eQtyXStrpvw',
+    video_head_name: 'Preprocess Part 1| Annotation Table Mapping | GeNet',
+    head_pop_name: 'Preprocess Part 1',
+    p_pop_name: 'Steps perform in Preprocessing (Annotation Table Mapping) part.'
+  },
+  {
+    video_link: 'https://www.youtube.com/embed/ruheCB0gFzg',
+    video_head_name: 'Preprocess Part 2 | Normalization & Imputation | GeNet',
+    head_pop_name: 'Preprocess Part 2',
+    p_pop_name: 'Steps perform in Preprocessing (Normalization & Imputation) part.'
+  },
+  {
+    video_link: 'https://www.youtube.com/embed/aoImwUSX-ik',
+    video_head_name: 'Preprocess Part 3 | Feature Reduction | GeNet',
+    head_pop_name: 'Preprocess Part 3',
+    p_pop_name: 'Steps perform in Preprocessing (Feature Reduction) part.'
+  },
+  {
+    video_link: 'https://www.youtube.com/embed/Qu-5a5RZC5I',
+    video_head_name: 'Feature Selection | Gene Expression Analysis Tool | GeNet',
+    head_pop_name: 'Feature Selection',
+    p_pop_name: 'Overview idea about the Feature Selection.'
+  },
+  {
+    video_link: 'https://www.youtube.com/embed/7Ja_r5dsIX0',
+    video_head_name: 'Analysis | Gene Expression Analysis Tool | GeNet',
+    head_pop_name: 'Analysis',
+    p_pop_name: 'Overview idea about the Analysis tab.'
+  },
+  {
+    video_link: 'https://www.youtube.com/embed/wjls7VMtehM',
+    video_head_name: 'Validation | Gene Expression Analysis Tool | GeNet',
+    head_pop_name: 'Validation',
+    p_pop_name: 'Overview idea about the Validation tab.'
+  }    
 ];
 for(var i=1; i<=course_set.length; i++){  
   $('.img_for_course_div').append(

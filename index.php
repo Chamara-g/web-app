@@ -234,8 +234,8 @@
           <div class="fea">
             <div class="col-md-4">
               <div class="heading pull-right">
-                <h4>Classification</h4>
-                <p>Visualize the behavior and patterns of your data with GeNet for better understanding. Rather than being overwhelmed by the huge number of numerical data why not try distilling it into visual graphics where you can easily grab the complex patterns and relationships.</p>
+                <h4>Clustering</h4>
+                <p>Visualise and explore the relationship and interactions between the genes. This will show you how different genes are interrelated.</p>
               </div>
               <div class="fea-img pull-left">
                 <i class="fa fa-object-ungroup"></i>
